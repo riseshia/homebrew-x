@@ -1,18 +1,7 @@
-# Tab for personal
+# Personal Homebrew Tab
 
-## How do I install these formulae?
+## [envdb](https://github.com/riseshia/envdb)
 
-`brew install riseshia/x/<formula>`
-
-Or `brew tap riseshia/x` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "riseshia/x"
-brew "<formula>"
+```shell
+brew install riseshia/x/envdb
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
