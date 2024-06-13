@@ -6,10 +6,8 @@ class Envdb < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/riseshia/homebrew-x/releases/download/envdb-0.1.5"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, ventura:      "1242ba844f8dd5fe9d7e1a981a5b2570f135d9c379fdf89b7e7dd5e14a281d7f"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "0b89e0d5097afae427a668080ee337b0ddedd75f8a0791eec556cbe1fec82983"
+    sha256 cellar: :any,                 ventura:        "1242ba844f8dd5fe9d7e1a981a5b2570f135d9c379fdf89b7e7dd5e14a281d7f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "95bd0e0bb8ed5d17049c4deca51d4c33112f2dd6852cdb5df86254823126225c"
   end
 
   depends_on "rust" => :build
