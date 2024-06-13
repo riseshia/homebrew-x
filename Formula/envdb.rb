@@ -1,5 +1,5 @@
 class Envdb < Formula
-  desc "Manager to handle .env file as DB"
+  desc "Manipulate .env file as DB"
   homepage "https://github.com/riseshia/envdb"
   url "https://github.com/riseshia/envdb/archive/refs/tags/v0.1.5.tar.gz"
   sha256 "8c2b33df9f5ccf0b077b796dd1166c9ebfdbde1dcc8ba131d3d900254b258ecb"
