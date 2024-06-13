@@ -19,6 +19,6 @@ class Envdb < Formula
   end
 
   test do
-    system "#{bin}/envdb", "help"
+    system "#{bin}/envdb", "--help"
   end
 end
