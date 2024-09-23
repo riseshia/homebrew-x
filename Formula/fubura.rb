@@ -6,9 +6,9 @@ class Fubura < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/riseshia/homebrew-x/releases/download/fubura-0.1.5"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "288e9107cc94e0714c187a9a674b2a887f73ad13b6daeb726fcd6daa7c6eff00"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "fe408782863bddfb9ca643fb091b3467ba36c057557851b0f930b7f0fa33f846"
+    root_url "https://github.com/riseshia/homebrew-x/releases/download/fubura-0.1.6"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "2393ca45def60500cb7c229494327b475c1fb0c57016fc857ec93889fb865588"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "568a05be6c7ac288fa0bfdfe9aea251ec9d4e0315a6bbe1210110bf7f4c505ed"
   end
 
   depends_on "rust" => :build
