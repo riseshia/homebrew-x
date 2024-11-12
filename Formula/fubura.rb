@@ -1,8 +1,8 @@
 class Fubura < Formula
   desc "CLI for managing Step Function states with EventBridge Scheduler at once"
   homepage "https://github.com/riseshia/fubura"
-  url "https://github.com/riseshia/fubura/archive/refs/tags/v0.1.10.tar.gz"
-  sha256 "c88604ee6e9d4b009d31b970cac276a0e67c5fef912baa748a4f745364f8f16e"
+  url "https://github.com/riseshia/fubura/archive/refs/tags/v0.1.11.tar.gz"
+  sha256 "252873493830ac56808d02a61d41e4cd0a82f5182a35a7221fe63368f9a9b6c1"
   license "MIT"
 
   bottle do
