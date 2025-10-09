@@ -11,3 +11,9 @@ brew install riseshia/x/envdb
 ```shell
 brew install riseshia/x/fubura
 ```
+
+## [athenadef](https://github.com/riseshia/athenadef)
+
+```shell
+brew install riseshia/x/athenadef
+```
