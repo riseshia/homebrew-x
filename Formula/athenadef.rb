@@ -7,6 +7,8 @@ class Athenadef < Formula
 
   bottle do
     root_url "https://github.com/riseshia/homebrew-x/releases/download/athenadef-0.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "299f72acb6b796079a106093c344ede7f3a62907bde2b347d1194be2cda36f3e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "38a57ec4e68d6acb71d4019b4500adf9eebc5e624607d52e3bae2caa9529cb10"
   end
 
   depends_on "rust" => :build
